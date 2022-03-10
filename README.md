@@ -44,3 +44,9 @@ GitHub contains a code book that modifies and updates the available codebooks wi
 The README that explains the analysis files is clear and understandable.
 
 The work submitted for this project is the work of the student who submitted it.
+
+## How to use this project
+
+- `downloadData.R` Downloads and unzips the data and stores it in the working directory
+- `run_analysis.R` is there for producing a "tidy data set" from the given "messy data set" and storing it in "tidydataset.txt"
+- `CodeBook.md` describes the variables, the data, and transformations performed to clean up the data
