@@ -151,7 +151,5 @@ TIDY <- dt[, list(count = .N, average = mean(value)), by = key(dt)]
 key(TIDY)
 
 ################# AND SAVE THE THING
-f <- file.path(".", "TIDY_HumanActivity.txt")
-write.table(TIDY, f, quote = FALSE, sep = "\t", row.names = FALSE)
 f <- file.path(".", "TIDY_HumanActivity.csv")
 write.csv(TIDY, f, quote = FALSE, row.names = FALSE)
