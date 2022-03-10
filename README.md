@@ -48,5 +48,5 @@ The work submitted for this project is the work of the student who submitted it.
 ## How to use this project
 
 - `download.R` Downloads and unzips the data and stores it in the working directory
-- `run_analysis.R` is there for producing a "tidy data set" from the given "messy data set" and storing it in "tidydataset.txt"
+- `run_analysis.R` is there for producing a "tidy dataset" from the given "messy dataset" and storing it in "tidydataset.txt"
 - `CodeBook.md` describes the variables, the data, and transformations performed to clean up the data
